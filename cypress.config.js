@@ -11,5 +11,7 @@ module.exports = defineConfig({
   env:{
     username: 'something@gmail.com',
     password: 'yourpassword'
-  }
+  },
+
+  defaultCommandTimeout: 15000,
 });
